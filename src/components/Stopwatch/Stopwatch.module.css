@@ -1,0 +1,37 @@
+
+.Container {
+    border-top : 4rem solid rgb(84, 189, 225);
+    border-bottom : 2rem solid rgb(84, 189, 225);
+    border-radius: 2rem 2rem 1rem 1rem;
+    border-left: 0.3rem solid rgb(84, 189, 225);
+    border-right: 0.3rem solid rgb(84, 189, 225);
+    width : 50%;
+    margin : 4rem auto;
+    padding: 0rem 2rem 2rem;
+    text-align: center;
+}
+
+.Time {
+    font-size: 4rem;
+    font-family: sans-serif;
+}
+
+
+.Title {
+    font-size: 4rem;
+    letter-spacing: 0.3rem;
+}
+
+.Btn {
+    padding : 0.5rem 1rem;
+    margin : 0.5rem;
+    outline : none;
+    border-radius: 2px;
+    font-size: 1rem;
+}
+
+.Btn:hover {
+
+    background-color: rgb(147, 228, 156);
+    border : 1px inset #444;
+}

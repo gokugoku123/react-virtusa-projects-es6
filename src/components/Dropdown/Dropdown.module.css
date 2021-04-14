@@ -1,0 +1,52 @@
+
+.DdWrapper {
+    width: 20%;
+}
+
+.DdHeader {
+    padding : 0.4rem 0.5rem;
+    border-radius: 3px 3px 0 0;
+    background-color: #abf594;
+    display: flex;
+    width: 100%;
+    box-shadow: 0.3rem 0.4rem 0.3rem #ddd;
+}
+
+.DdHeaderTitle {
+    padding : 0.2rem 0.35rem;
+
+}
+
+.DdList {
+    border-radius: 0 0 5px 5px;
+}
+
+
+.DdListItem {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+    border: none;
+    border-bottom: 0.4px solid #ddd;
+    outline: none;
+    text-align: left;
+    box-shadow: 0.3rem 0.4rem 0.3rem #ddd;
+}
+
+.Hidden {
+    display: none;
+}
+
+.Visible {
+    transition: all 150ms;
+    display: block;
+}
+
+.DdListItem:hover {
+    background-color: #cec;
+}
+
+.DdListItem:last-child {
+    border-radius: 0 0 3px 3px;
+    border-bottom: none;
+}
