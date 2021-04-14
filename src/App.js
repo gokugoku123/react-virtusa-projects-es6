@@ -10,14 +10,14 @@ import InputContainer from './components/InputContainer/InputContainer'
 function App() {
   return (
     <div className="App">
-      <InputContainer />
+      {/* <InputContainer /> */}
       {/* <Stopwatch /> */}
       {/* <Search /> */}
       {/* <ColorChanger /> */}
       {/* <AreaCalculator /> */}
       {/* <FilterEvenOdd /> */}
       {/* <ImageLoader /> */}
-      {/* <UrlValidator /> */}
+      <UrlValidator />
     </div>
   );
 }

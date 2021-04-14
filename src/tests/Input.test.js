@@ -13,12 +13,8 @@ describe('Input component', () => {
             />
         );
 
-        let labelValue = screen.getByText('Enter your email');
-        let placeholder = screen.getByPlaceholderText('Please Enter your email');
         let inputEl = screen.getByTestId('email');
 
-        expect(labelValue).toBeTruthy();
-        expect(placeholder).toBeTruthy();
         expect(inputEl).toBeInTheDocument();
 
         fireEvent.focus(inputEl);
