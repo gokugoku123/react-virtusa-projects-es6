@@ -3,6 +3,7 @@
 .Container {
     display: flex;
     padding: 2rem;
+    background-color: lavender;
     text-align: left;
     flex-direction: column;
     width : 50%;
@@ -14,26 +15,37 @@
 .Label {
     /* border : 2px solid blue; */
     padding: 0.3rem;
+    margin-bottom: 0.3rem;
+    font-family: sans-serif;
 }
 
 .Input {
-    padding : 0.7rem 0.4rem;
+    padding : 0.7rem 0.6rem;
     font-size: 1rem;
     border : 0.1rem solid #ccc;
-    border-radius: 0.2rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
     outline: none;
+    background-color: aliceblue;
 }
 
 .Dropdown {
-    padding : 0.5rem;
+    background-color: aliceblue;
+    padding : 0.5rem 0.3rem;
     border : 0.1rem solid #999;
+    margin-bottom: 0.5rem;
     border-radius: 0.2rem;
     outline: none;
 }
 
+.Option {
+    padding : 5rem;
+}
+
 .TextArea {
+    background-color: aliceblue;
     margin : 0.2rem 0 1rem;
-    padding: 1rem;
+    padding: 1rem 2rem;
     border : 0.1rem solid #999;
     border-radius: 0.2rem;
     outline: none;
@@ -41,11 +53,11 @@
 
 .Button {
     margin : 0.5rem 0;
-    padding : 0.5rem;
-    color: white;
+    padding : 0.5rem 1.2rem;
+    width: fit-content;
     border-radius: 0.3rem;
     outline: none;
-    background: linear-gradient(#14d8d8, #001d1d);
+    display: inline-block;
 }
 
 .Message {

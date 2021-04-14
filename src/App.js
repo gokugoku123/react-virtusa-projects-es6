@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import UrlValidator from './components/UrlValidator/UrlValidator';
 import FilterEvenOdd from './components/FilterEvenOdd/FilterEvenOdd';
@@ -9,8 +8,8 @@ function App() {
   return (
     <div className="App">
       {/* <AreaCalculator /> */}
-      <FilterEvenOdd />
-      {/* <ImageLoader />/ */}
+      {/* <FilterEvenOdd /> */}
+      <ImageLoader />
       {/* <UrlValidator /> */}
     </div>
   );

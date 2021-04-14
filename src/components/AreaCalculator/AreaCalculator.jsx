@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import classes from './AreaCalculator.module.css';
 import { getAreaOfCircle } from './utility';
+
 class AreaCalculator extends Component {
     
     state = {
@@ -24,12 +25,13 @@ class AreaCalculator extends Component {
     
     
       render() {
-         return <div className={classes.Container}>
-          <h1> Area Calculator </h1>
-          <label className={classes.label} htmlFor="radius">Enter the radius of a circle : </label>
-          <input className={classes.Input} type="number" onChange={this.changeRadiusHandler} id="radius" value={this.state.radius} />
-          {(this.state.radius !== "" ) && <h3 className={classes.Answer}>The area of circle with radius {this.state.radius} is {this.state.answer}</h3>}
-        </div>
+         return (
+          <div className={classes.Container}>
+            <h1> Area Calculator </h1>
+            <label className={classes.label} htmlFor="radius">Enter the radius of a circle : </label>
+            <input data-testid="input" className={classes.Input} type="number" onChange={this.changeRadiusHandler} id="radius" value={this.state.radius} />
+            {(this.state.radius !== "" ) && <h3 data-testid="result" className={classes.Answer}>The area of circle with radius {this.state.radius} is {this.state.answer}</h3>}
+        </div>)
       }
 }
 
