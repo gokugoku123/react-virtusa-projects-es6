@@ -12,12 +12,12 @@ function App() {
     <div className="App">
       {/* <InputContainer /> */}
       {/* <Stopwatch /> */}
-      {/* <Search /> */}
+      <Search />
       {/* <ColorChanger /> */}
       {/* <AreaCalculator /> */}
       {/* <FilterEvenOdd /> */}
       {/* <ImageLoader /> */}
-      <UrlValidator />
+      {/* <UrlValidator /> */}
     </div>
   );
 }
