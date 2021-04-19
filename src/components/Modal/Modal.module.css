@@ -1,0 +1,46 @@
+.Modalcontainer {
+    position : absolute;
+    background-color: rgb(237, 248, 248);
+    left : 50%;
+    top : 50%;
+    transform: translate(-50%, -50%);
+    padding : 2rem 7rem 5rem;
+    border : 4px outset black;
+    border-radius: 0.7rem;
+    z-index: 1000;
+    
+}
+
+.Modalcontainer > h4 {
+    text-align: center;
+}
+
+.Overlay {
+    background-color: rgba(0, 0, 0, 0.768);
+    position: absolute;
+    left: 0;
+    top : 0;
+    bottom: 0;
+    width: 100vw;
+    z-index: 1000;
+}
+
+.Input {
+    padding : 0.7rem;
+    border-radius: 0.4rem 0 0 0.4rem;
+    border: 1.2px solid black;
+    outline: none;
+}
+
+.AddButton {
+    padding : 0.7rem;
+    font-weight: 700;
+    border-radius: 0 0.4rem 0.4rem 0; 
+    border: 1.2px solid black;
+    outline : none;
+    background-color: rgb(69, 236, 69);
+}
+
+.AddButton:active {
+    background-color: rgb(28, 226, 28);
+}
