@@ -24,9 +24,9 @@
 }
 
 
-a:nth-child(even) {
+/* a:nth-child(even) {
   background-color: rgb(226, 199, 226);
-}
+} */
 
 .SearchContainer {
   margin : 0.5rem;

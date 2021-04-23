@@ -1,0 +1,46 @@
+
+.PreviewContainer {
+    margin : 0 1rem;
+    padding: 1rem;
+}
+
+.PreviewContainer h4 {
+    font-size: 1.5rem;
+}
+
+.MarkdownContainer {
+    padding : 1rem;
+    border-radius: 0.2rem;
+    border : 2px solid #eee;
+    box-shadow: 0.3rem 0.3rem 0.4rem #ddd;
+}
+
+.PreviewHeading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.PreviewButton {
+    height: fit-content;
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+    outline: none;
+    border :1px solid #ddd;
+    box-shadow: 0.3rem 0.3rem 0.2rem #ccc;
+    background-color: rgb(232, 243, 247);
+}
+
+.CustomInput {
+    display: flex;
+    align-items: center;
+}
+
+.CustomInput button {
+    margin : 0 0.5rem;
+}
+
+.PreviewButton:active {
+    box-shadow: none;
+    transition: all 0.2s;
+}

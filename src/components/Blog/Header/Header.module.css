@@ -1,0 +1,41 @@
+
+.NavContainer {
+    border : 3px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 1rem; 
+    margin : 0.5rem 1rem 1rem;
+    border-radius:3px;
+    box-shadow: 0.3rem 0.3rem 0.2rem #ddd;
+}
+
+.NavBrand {
+    font-size: 1.8rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color :rgb(243, 32, 67)
+}
+
+.NavLinks {
+    /* border : 1px solid black; */
+    padding : 0 0.5rem;
+}
+
+.NavLinkItem {
+    margin : 0 2rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(33, 86, 155);
+    font-weight: 500;
+}
+
+.NavLinkItem p {
+    display: inline;
+    padding : 0 1rem;
+}
+
+.NavLinkItem:hover {
+    color : rgb(235, 83, 23)
+}
+
+

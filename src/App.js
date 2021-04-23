@@ -7,40 +7,33 @@ import Search from './components/Search/Search';
 import ColorChanger from './components/ColorChanger/ColorChanger';
 import Stopwatch from './components/Stopwatch/Stopwatch';
 import InputContainer from './components/InputContainer/InputContainer'
-import Route from './components/Navigation/Route/Route';
-import Header from './components/Navigation/Header/Header';
-import Component1 from './components/Navigation/Component1/Component1'
-import Component2 from './components/Navigation/Component2/Component2'
 import TaskList from './components/TaskList/TaskList';
+import Blog from './components/Blog/Blog';
+import { BrowserRouter } from 'react-router-dom';
+import Navigation from './components/Navigation/Navigation';
 function App() {
   return (
     <>
-      <div className="App">
-        {/* <InputContainer />
+      {/* <div className="App">
+        <InputContainer />
         <Stopwatch />
         <Search />
         <ColorChanger />
         <AreaCalculator />
         <FilterEvenOdd />
         <ImageLoader />
-        <UrlValidator /> */}
-      </div>
+        <UrlValidator />
+      </div> */}
 
-      <div className="App">
+      {/* <div className="App">
         <TaskList />
-      </div>
-      
-      {/* Navigation Component  */}
-      <div className="App">
-          <Header />
-          <h1 className="nav-style">App Component Works</h1>
-          <Route path="/component1">
-            <Component1 />
-          </Route>
-          <Route path="/component2">
-            <Component2 />
-          </Route>
-      </div>
+        <Navigation />
+      </div> */}
+
+      <BrowserRouter>
+        <Blog />
+      </BrowserRouter>
+    
     </>
 
 

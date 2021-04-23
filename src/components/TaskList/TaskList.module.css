@@ -22,7 +22,7 @@
     flex-direction: column;
 }
 
-h3 {
+.Container h3 {
     padding : 1rem 0.5rem;
     border-radius: 0.2rem;
     border : 1px solid #bbb;
